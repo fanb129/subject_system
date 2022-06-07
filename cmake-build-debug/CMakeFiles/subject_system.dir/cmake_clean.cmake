@@ -18,6 +18,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o"
   "CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o"
   "CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o"
+  "CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o"
   "subject_system.pdb"
   "subject_system"
 )

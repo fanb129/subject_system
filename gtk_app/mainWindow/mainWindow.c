@@ -24,7 +24,7 @@ void mainWindowInit(){
     //主界面Windows的创建
     mainWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(mainWindow),title);
-    gtk_widget_set_usize(mainWindow,400,400);
+    gtk_widget_set_usize(mainWindow,500,500);
     g_signal_connect(GTK_OBJECT(mainWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
 

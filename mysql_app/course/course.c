@@ -28,7 +28,7 @@ int queryCourseByTno(struct course *cou,char *tno){
     }
     return len;
 }
-
+// 添加课程
 int addCourse(struct course cou){
     char sql[100];
     sprintf(sql,"insert into course values('%s','%s','%s')",cou.cno,cou.cname,cou.tno);
@@ -36,7 +36,7 @@ int addCourse(struct course cou){
     int res = execDB(sql);
     return res;
 }
-
+// 删除课程
 int deleteCourse(char *cno){
     char sql[100];
     sprintf(sql,"delete from course where cno='%s'",cno);

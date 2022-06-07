@@ -8,28 +8,28 @@
       <Option virtualFolders="CMake Files\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="/tmp/tmp.UnWe8INrez/cmake-build-debug" />
+         <Option working_dir="/root/tmp/tmp.UnWe8INrez/cmake-build-debug" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rebuild_cache">
-         <Option working_dir="/tmp/tmp.UnWe8INrez/cmake-build-debug" />
+         <Option working_dir="/root/tmp/tmp.UnWe8INrez/cmake-build-debug" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="subject_system">
-         <Option output="/tmp/tmp.UnWe8INrez/cmake-build-debug/subject_system" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/tmp/tmp.UnWe8INrez/cmake-build-debug" />
+         <Option output="/root/tmp/tmp.UnWe8INrez/cmake-build-debug/subject_system" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/root/tmp/tmp.UnWe8INrez/cmake-build-debug" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -55,15 +55,15 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 subject_system" />
-            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 subject_system" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="subject_system/fast">
-         <Option output="/tmp/tmp.UnWe8INrez/cmake-build-debug/subject_system" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/tmp/tmp.UnWe8INrez/cmake-build-debug" />
+         <Option output="/root/tmp/tmp.UnWe8INrez/cmake-build-debug/subject_system" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/root/tmp/tmp.UnWe8INrez/cmake-build-debug" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -89,88 +89,92 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 subject_system/fast" />
-            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 subject_system/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/root/tmp/tmp.UnWe8INrez/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/main.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/util/toutf8.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/course/course.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/main.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/course/course.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/student/student.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/student/student.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/course/course.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/gtk_app/util/toutf8.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/course/course.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/student/student.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.h">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.h">
       </Unit>
-      <Unit filename="/tmp/tmp.UnWe8INrez/CMakeLists.txt">
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/student/student.h">
+      </Unit>
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.h">
+      </Unit>
+      <Unit filename="/root/tmp/tmp.UnWe8INrez/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
    </Project>

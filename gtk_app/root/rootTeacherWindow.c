@@ -7,22 +7,30 @@
 #include "rootWindow.h"
 #include "addWindow.h"
 #include <string.h>
+#include "../util/toutf8.h"
 
 char tno[100][100];
+
+// root删除教师按钮回调函数
 void rootTeacherDelete(GtkWidget *widget,gpointer data){
     char tno1[100];
     strcpy(tno1,(char *)data);
     int rs = deleteTeacher(tno1);
     if(rs == 0){
         printf("delete success\n");
+        gtk_widget_hide_all(rootTeacherWindow);
+        rootTeacherWindowInit();
+        gtk_widget_show_all(rootTeacherWindow);
     }
 }
 
+// 返回界面回调函数
 void rootTeacherBack(GtkWidget *widget,gpointer data){
     gtk_widget_hide_all(rootTeacherWindow);
     gtk_widget_show_all(rootWindow);
 }
 
+// root添加teacher回调函数
 void addTeacherWindow(GtkWidget *widget,gpointer data){
     addWindowInit();
     gtk_widget_hide_all(rootTeacherWindow);
@@ -42,7 +50,7 @@ void rootTeacherWindowInit(){
 
     rootTeacherWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(rootTeacherWindow),title);
-    gtk_widget_set_usize(rootTeacherWindow,400,400);
+    gtk_widget_set_usize(rootTeacherWindow,500,500);
     g_signal_connect(GTK_OBJECT(rootTeacherWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(rootTeacherWindow),vbox);
@@ -50,13 +58,12 @@ void rootTeacherWindowInit(){
     for(i = 0;i < len;i++){
         hbox = gtk_hbox_new(FALSE,0);
         char content[100];
-        sprintf(content,"%d\t%s\t%s\t%s",i+1,tea[i].tno,tea[i].tname,tea[i].tsex);
+        sprintf(content,"%d\t%s\t%s\t%s",i+1,toUtf8(tea[i].tno),toUtf8(tea[i].tname),toUtf8(tea[i].tsex));
         label = gtk_label_new(content);
         gtk_box_pack_start((GtkBox *) hbox, label, FALSE, FALSE, 5);
-
+        strcpy(tno[i],tea[i].tno);
         button = gtk_button_new_with_label("delete");
         gtk_box_pack_start((GtkBox *) hbox, button, FALSE, FALSE, 5);
-        strcpy(tno[i],tea[i].tno);
         g_signal_connect(GTK_OBJECT(button),"pressed",GTK_SIGNAL_FUNC(rootTeacherDelete),tno[i]);
 
         gtk_box_pack_start((GtkBox *) vbox, hbox, FALSE, FALSE, 5);

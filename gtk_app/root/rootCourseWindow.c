@@ -6,22 +6,28 @@
 #include "../../mysql_app/course/course.h"
 #include "rootWindow.h"
 #include "addCourseWindow.h"
-char cno[100][100];
+#include "../util/toutf8.h"
+
+char rootCno[100][100];
+// root删除课程回调函数
 void rootCourseDelete(GtkWidget *widget,gpointer data){
     char cno1[100];
     strcpy(cno1,(char *)data);
     int rs = deleteCourse(cno1);
     if(rs == 0){
         printf("delete success\n");
+        gtk_widget_hide_all(rootCourseWindow);
         rootCourseWindowInit();
+        gtk_widget_show_all(rootCourseWindow);
     }
 }
 
+// 返回界面回调函数
 void rootCourseBack(GtkWidget *widget,gpointer data){
     gtk_widget_hide_all(rootCourseWindow);
     gtk_widget_show_all(rootWindow);
 }
-
+// 切换添加课程回调函数
 void changeAddCourseWindow(GtkWidget *widget,gpointer data){
     addCourseWindowInit();
     gtk_widget_hide_all(rootCourseWindow);
@@ -41,7 +47,7 @@ void rootCourseWindowInit(){
 
     rootCourseWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(rootCourseWindow),title);
-    gtk_widget_set_usize(rootCourseWindow,400,400);
+    gtk_widget_set_usize(rootCourseWindow,500,500);
     g_signal_connect(GTK_OBJECT(rootCourseWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(rootCourseWindow),vbox);
@@ -49,14 +55,14 @@ void rootCourseWindowInit(){
     for(i = 0;i < len;i++){
         hbox = gtk_hbox_new(FALSE,0);
         char content[100];
-        sprintf(content,"%d\t%s\t%s\t%s",i+1,cou[i].cno,cou[i].cname,cou[i].tno);
+        sprintf(content,"%d\t%s\t%s\t%s",i+1, toUtf8(cou[i].cno), toUtf8(cou[i].cname), toUtf8(cou[i].tno));
         label = gtk_label_new(content);
         gtk_box_pack_start((GtkBox *) hbox, label, FALSE, FALSE, 5);
 
         button = gtk_button_new_with_label("delete");
         gtk_box_pack_start((GtkBox *) hbox, button, FALSE, FALSE, 5);
-        strcpy(cno[i],cou[i].cno);
-        g_signal_connect(GTK_OBJECT(button),"pressed",GTK_SIGNAL_FUNC(rootCourseDelete),cno[i]);
+        strcpy(rootCno[i],cou[i].cno);
+        g_signal_connect(GTK_OBJECT(button),"pressed",GTK_SIGNAL_FUNC(rootCourseDelete),rootCno[i]);
 
         gtk_box_pack_start((GtkBox *) vbox, hbox, FALSE, FALSE, 5);
     }

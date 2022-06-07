@@ -34,7 +34,7 @@ int queryScByCno(struct sc *sc,char *cno){
     }
     return len;
 }
-
+// 添加选课
 int addSc(struct sc sc){
     char sql[100];
     sprintf(sql,"insert into sc values('%s','%s','%s')",sc.sno,sc.cno,sc.grade);
@@ -42,7 +42,7 @@ int addSc(struct sc sc){
     int res = execDB(sql);
     return res;
 }
-
+//退选
 int deleteSc(char *sno,char *cno){
     char sql[100];
     sprintf(sql,"delete from sc where sno='%s' and cno='%s'",sno,cno);
@@ -50,7 +50,7 @@ int deleteSc(char *sno,char *cno){
     int res = execDB(sql);
     return res;
 }
-
+//登陆成绩
 int changeGrade(char *sno,char *cno,char *grade){
     char sql[100];
     sprintf(sql,"update sc set grade='%s' where sno='%s' and cno='%s'",grade,sno,cno);

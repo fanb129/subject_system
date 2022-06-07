@@ -37,7 +37,7 @@ void rootWindowInit(){
     //主界面Windows的创建
     rootWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(rootWindow),title);
-    gtk_widget_set_usize(rootWindow,400,400);
+    gtk_widget_set_usize(rootWindow,500,500);
     g_signal_connect(GTK_OBJECT(rootWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
 

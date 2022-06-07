@@ -16,7 +16,7 @@ void addCourseBack(GtkWidget *widget,gpointer data){
     gtk_widget_hide_all(addCourseWindow);
     gtk_widget_show_all(rootCourseWindow);
 }
-// 注册回调函数
+// 添加course回调函数
 void doaddCourse(GtkWidget *widget,gpointer data){
     const char *getCno = gtk_entry_get_text(GTK_ENTRY(addCno));
     const char *getCname = gtk_entry_get_text(GTK_ENTRY(addCname));
@@ -34,6 +34,7 @@ void doaddCourse(GtkWidget *widget,gpointer data){
     if(rs == 0){
         printf("add success\n");
         gtk_widget_hide_all(addCourseWindow);
+        rootCourseWindowInit();
         gtk_widget_show_all(rootCourseWindow);
     }
 
@@ -48,7 +49,7 @@ void addCourseWindowInit(){
 
     addCourseWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(addCourseWindow),title);
-    gtk_widget_set_usize(addCourseWindow,400,400);
+    gtk_widget_set_usize(addCourseWindow,500,500);
     g_signal_connect(GTK_OBJECT(addCourseWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(addCourseWindow),vbox);

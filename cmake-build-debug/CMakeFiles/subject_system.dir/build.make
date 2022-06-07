@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.UnWe8INrez
+CMAKE_SOURCE_DIR = /root/tmp/tmp.UnWe8INrez
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.UnWe8INrez/cmake-build-debug
+CMAKE_BINARY_DIR = /root/tmp/tmp.UnWe8INrez/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/subject_system.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/subject_system.dir/flags.make
 
 CMakeFiles/subject_system.dir/main.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/main.c.o: ../main.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/main.c.o   -c /tmp/tmp.UnWe8INrez/main.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/main.c.o   -c /root/tmp/tmp.UnWe8INrez/main.c
 
 CMakeFiles/subject_system.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/main.c > CMakeFiles/subject_system.dir/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/main.c > CMakeFiles/subject_system.dir/main.c.i
 
 CMakeFiles/subject_system.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/main.c -o CMakeFiles/subject_system.dir/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/main.c -o CMakeFiles/subject_system.dir/main.c.s
 
 CMakeFiles/subject_system.dir/main.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/main.c.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/subject_system.dir/main.c.o.provides.build: CMakeFiles/subject_system
 
 CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o: ../mysql_app/mysql_app/mysql_app.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o   -c /tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o   -c /root/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c
 
 CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c > CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c > CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.i
 
 CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c -o CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/mysql_app/mysql_app/mysql_app.c -o CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.s
 
 CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/subject_system.dir/mysql_app/mysql_app/mysql_app.c.o.provides.build: 
 
 CMakeFiles/subject_system.dir/mysql_app/student/student.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/mysql_app/student/student.c.o: ../mysql_app/student/student.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/mysql_app/student/student.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/student/student.c.o   -c /tmp/tmp.UnWe8INrez/mysql_app/student/student.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/student/student.c.o   -c /root/tmp/tmp.UnWe8INrez/mysql_app/student/student.c
 
 CMakeFiles/subject_system.dir/mysql_app/student/student.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/mysql_app/student/student.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/mysql_app/student/student.c > CMakeFiles/subject_system.dir/mysql_app/student/student.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/mysql_app/student/student.c > CMakeFiles/subject_system.dir/mysql_app/student/student.c.i
 
 CMakeFiles/subject_system.dir/mysql_app/student/student.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/mysql_app/student/student.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/mysql_app/student/student.c -o CMakeFiles/subject_system.dir/mysql_app/student/student.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/mysql_app/student/student.c -o CMakeFiles/subject_system.dir/mysql_app/student/student.c.s
 
 CMakeFiles/subject_system.dir/mysql_app/student/student.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/mysql_app/student/student.c.o.requires
@@ -123,17 +123,17 @@ CMakeFiles/subject_system.dir/mysql_app/student/student.c.o.provides.build: CMak
 
 CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o: ../mysql_app/teacher/teacher.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o   -c /tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o   -c /root/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c
 
 CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c > CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c > CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.i
 
 CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c -o CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/mysql_app/teacher/teacher.c -o CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.s
 
 CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/subject_system.dir/mysql_app/teacher/teacher.c.o.provides.build: CMak
 
 CMakeFiles/subject_system.dir/mysql_app/course/course.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/mysql_app/course/course.c.o: ../mysql_app/course/course.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/mysql_app/course/course.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/course/course.c.o   -c /tmp/tmp.UnWe8INrez/mysql_app/course/course.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/course/course.c.o   -c /root/tmp/tmp.UnWe8INrez/mysql_app/course/course.c
 
 CMakeFiles/subject_system.dir/mysql_app/course/course.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/mysql_app/course/course.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/mysql_app/course/course.c > CMakeFiles/subject_system.dir/mysql_app/course/course.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/mysql_app/course/course.c > CMakeFiles/subject_system.dir/mysql_app/course/course.c.i
 
 CMakeFiles/subject_system.dir/mysql_app/course/course.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/mysql_app/course/course.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/mysql_app/course/course.c -o CMakeFiles/subject_system.dir/mysql_app/course/course.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/mysql_app/course/course.c -o CMakeFiles/subject_system.dir/mysql_app/course/course.c.s
 
 CMakeFiles/subject_system.dir/mysql_app/course/course.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/mysql_app/course/course.c.o.requires
@@ -169,17 +169,17 @@ CMakeFiles/subject_system.dir/mysql_app/course/course.c.o.provides.build: CMakeF
 
 CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o: ../mysql_app/sc/sc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o   -c /tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o   -c /root/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c
 
 CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c > CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c > CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.i
 
 CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c -o CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/mysql_app/sc/sc.c -o CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.s
 
 CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o.requires
@@ -192,17 +192,17 @@ CMakeFiles/subject_system.dir/mysql_app/sc/sc.c.o.provides.build: CMakeFiles/sub
 
 CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o: ../gtk_app/mainWindow/mainWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c > CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c > CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c -o CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/mainWindow/mainWindow.c -o CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o.requires
@@ -215,17 +215,17 @@ CMakeFiles/subject_system.dir/gtk_app/mainWindow/mainWindow.c.o.provides.build: 
 
 CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o: ../gtk_app/loginWindow/loginWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c > CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c > CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c -o CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/loginWindow/loginWindow.c -o CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o.requires
@@ -238,17 +238,17 @@ CMakeFiles/subject_system.dir/gtk_app/loginWindow/loginWindow.c.o.provides.build
 
 CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o: ../gtk_app/registerWindow/registerWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c > CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c > CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c -o CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/registerWindow/registerWindow.c -o CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o.requires
@@ -261,17 +261,17 @@ CMakeFiles/subject_system.dir/gtk_app/registerWindow/registerWindow.c.o.provides
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o: ../gtk_app/teacher/teacherWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c > CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c > CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherWindow.c -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o.requires
@@ -284,17 +284,17 @@ CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.o.provides.build: 
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o: ../gtk_app/teacher/teacherGradeWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c > CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c > CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/teacher/teacherGradeWindow.c -o CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o.requires
@@ -307,17 +307,17 @@ CMakeFiles/subject_system.dir/gtk_app/teacher/teacherGradeWindow.c.o.provides.bu
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o: ../gtk_app/root/rootWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o.requires
@@ -330,17 +330,17 @@ CMakeFiles/subject_system.dir/gtk_app/root/rootWindow.c.o.provides.build: CMakeF
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o: ../gtk_app/root/rootStudentWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootStudentWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o.requires
@@ -353,17 +353,17 @@ CMakeFiles/subject_system.dir/gtk_app/root/rootStudentWindow.c.o.provides.build:
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o: ../gtk_app/root/rootTeacherWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootTeacherWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o.requires
@@ -376,17 +376,17 @@ CMakeFiles/subject_system.dir/gtk_app/root/rootTeacherWindow.c.o.provides.build:
 
 CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o: ../gtk_app/root/addWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/root/addWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o.requires
@@ -399,17 +399,17 @@ CMakeFiles/subject_system.dir/gtk_app/root/addWindow.c.o.provides.build: CMakeFi
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o: ../gtk_app/root/rootCourseWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/root/rootCourseWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o.requires
@@ -422,17 +422,17 @@ CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o.provides.build: 
 
 CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o: ../gtk_app/root/addCourseWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c > CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/root/addCourseWindow.c -o CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o.requires
@@ -445,17 +445,17 @@ CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o.provides.build: C
 
 CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o: ../gtk_app/student/studentWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c > CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c > CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c -o CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/student/studentWindow.c -o CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o.requires
@@ -468,17 +468,17 @@ CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o.provides.build: 
 
 CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o: CMakeFiles/subject_system.dir/flags.make
 CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o: ../gtk_app/student/addScWindow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o   -c /tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c
 
 CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c > CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c > CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.i
 
 CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c -o CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/student/addScWindow.c -o CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.s
 
 CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o.requires:
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o.requires
@@ -488,6 +488,29 @@ CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o.provides: CMakeFil
 .PHONY : CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o.provides
 
 CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o.provides.build: CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o
+
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o: CMakeFiles/subject_system.dir/flags.make
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o: ../gtk_app/util/toutf8.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o   -c /root/tmp/tmp.UnWe8INrez/gtk_app/util/toutf8.c
+
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/tmp/tmp.UnWe8INrez/gtk_app/util/toutf8.c > CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.i
+
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/tmp/tmp.UnWe8INrez/gtk_app/util/toutf8.c -o CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.s
+
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.requires:
+.PHONY : CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.requires
+
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.provides: CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.requires
+	$(MAKE) -f CMakeFiles/subject_system.dir/build.make CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.provides.build
+.PHONY : CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.provides
+
+CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.provides.build: CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o
 
 # Object files for target subject_system
 subject_system_OBJECTS = \
@@ -509,7 +532,8 @@ subject_system_OBJECTS = \
 "CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o" \
 "CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o" \
 "CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o" \
-"CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o"
+"CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o" \
+"CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o"
 
 # External object files for target subject_system
 subject_system_EXTERNAL_OBJECTS =
@@ -533,6 +557,7 @@ subject_system: CMakeFiles/subject_system.dir/gtk_app/root/rootCourseWindow.c.o
 subject_system: CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o
 subject_system: CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o
 subject_system: CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o
+subject_system: CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o
 subject_system: CMakeFiles/subject_system.dir/build.make
 subject_system: CMakeFiles/subject_system.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable subject_system"
@@ -561,6 +586,7 @@ CMakeFiles/subject_system.dir/requires: CMakeFiles/subject_system.dir/gtk_app/ro
 CMakeFiles/subject_system.dir/requires: CMakeFiles/subject_system.dir/gtk_app/root/addCourseWindow.c.o.requires
 CMakeFiles/subject_system.dir/requires: CMakeFiles/subject_system.dir/gtk_app/student/studentWindow.c.o.requires
 CMakeFiles/subject_system.dir/requires: CMakeFiles/subject_system.dir/gtk_app/student/addScWindow.c.o.requires
+CMakeFiles/subject_system.dir/requires: CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o.requires
 .PHONY : CMakeFiles/subject_system.dir/requires
 
 CMakeFiles/subject_system.dir/clean:
@@ -568,6 +594,6 @@ CMakeFiles/subject_system.dir/clean:
 .PHONY : CMakeFiles/subject_system.dir/clean
 
 CMakeFiles/subject_system.dir/depend:
-	cd /tmp/tmp.UnWe8INrez/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.UnWe8INrez /tmp/tmp.UnWe8INrez /tmp/tmp.UnWe8INrez/cmake-build-debug /tmp/tmp.UnWe8INrez/cmake-build-debug /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles/subject_system.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/tmp/tmp.UnWe8INrez/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/tmp/tmp.UnWe8INrez /root/tmp/tmp.UnWe8INrez /root/tmp/tmp.UnWe8INrez/cmake-build-debug /root/tmp/tmp.UnWe8INrez/cmake-build-debug /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles/subject_system.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/subject_system.dir/depend
 

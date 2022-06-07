@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.UnWe8INrez
+CMAKE_SOURCE_DIR = /root/tmp/tmp.UnWe8INrez
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.UnWe8INrez/cmake-build-debug
+CMAKE_BINARY_DIR = /root/tmp/tmp.UnWe8INrez/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/tmp/tmp.UnWe8INrez/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -426,6 +426,30 @@ gtk_app/teacher/teacherWindow.c.s:
 	$(MAKE) -f CMakeFiles/subject_system.dir/build.make CMakeFiles/subject_system.dir/gtk_app/teacher/teacherWindow.c.s
 .PHONY : gtk_app/teacher/teacherWindow.c.s
 
+gtk_app/util/toutf8.o: gtk_app/util/toutf8.c.o
+.PHONY : gtk_app/util/toutf8.o
+
+# target to build an object file
+gtk_app/util/toutf8.c.o:
+	$(MAKE) -f CMakeFiles/subject_system.dir/build.make CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.o
+.PHONY : gtk_app/util/toutf8.c.o
+
+gtk_app/util/toutf8.i: gtk_app/util/toutf8.c.i
+.PHONY : gtk_app/util/toutf8.i
+
+# target to preprocess a source file
+gtk_app/util/toutf8.c.i:
+	$(MAKE) -f CMakeFiles/subject_system.dir/build.make CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.i
+.PHONY : gtk_app/util/toutf8.c.i
+
+gtk_app/util/toutf8.s: gtk_app/util/toutf8.c.s
+.PHONY : gtk_app/util/toutf8.s
+
+# target to generate assembly for a file
+gtk_app/util/toutf8.c.s:
+	$(MAKE) -f CMakeFiles/subject_system.dir/build.make CMakeFiles/subject_system.dir/gtk_app/util/toutf8.c.s
+.PHONY : gtk_app/util/toutf8.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -618,6 +642,9 @@ help:
 	@echo "... gtk_app/teacher/teacherWindow.o"
 	@echo "... gtk_app/teacher/teacherWindow.i"
 	@echo "... gtk_app/teacher/teacherWindow.s"
+	@echo "... gtk_app/util/toutf8.o"
+	@echo "... gtk_app/util/toutf8.i"
+	@echo "... gtk_app/util/toutf8.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -65,6 +65,9 @@ add_executable(subject_system main.c
         gtk_app/root/rootStudentWindow.c gtk_app/root/rootStudentWindow.h
         gtk_app/root/rootTeacherWindow.c gtk_app/root/rootTeacherWindow.h
         gtk_app/root/addWindow.c gtk_app/root/addWindow.h
-        gtk_app/root/rootCourseWindow.c gtk_app/root/rootCourseWindow.h gtk_app/root/addCourseWindow.c gtk_app/root/addCourseWindow.h gtk_app/student/studentWindow.c gtk_app/student/studentWindow.h gtk_app/student/addScWindow.c gtk_app/student/addScWindow.h)
+        gtk_app/root/rootCourseWindow.c gtk_app/root/rootCourseWindow.h
+        gtk_app/root/addCourseWindow.c gtk_app/root/addCourseWindow.h
+        gtk_app/student/studentWindow.c gtk_app/student/studentWindow.h
+        gtk_app/student/addScWindow.c gtk_app/student/addScWindow.h gtk_app/util/toutf8.c gtk_app/util/toutf8.h)
 #主要配置第一个参数为项目名
 target_link_libraries(subject_system mysqlclient)

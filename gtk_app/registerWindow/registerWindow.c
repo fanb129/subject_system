@@ -65,7 +65,7 @@ void registerWindowInit(){
 
     registerWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(registerWindow),title);
-    gtk_widget_set_usize(registerWindow,400,400);
+    gtk_widget_set_usize(registerWindow,500,500);
     g_signal_connect(GTK_OBJECT(registerWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(registerWindow),vbox);

@@ -69,7 +69,7 @@ void loginWindowInit(){
 
     loginWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(loginWindow),title);
-    gtk_widget_set_usize(loginWindow,400,400);
+    gtk_widget_set_usize(loginWindow,500,500);
     g_signal_connect(GTK_OBJECT(loginWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(loginWindow),vbox);

@@ -5,14 +5,16 @@
 #include "teacherGradeWindow.h"
 #include "teacherWindow.h"
 #include "../../mysql_app/sc/sc.h"
+#include "../util/toutf8.h"
 char title[100];
 char sno[100][100];
 GtkWidget *gradeTxt;
+// 返回界面回调函数
 void teacherGradeBack(GtkWidget *widget,gpointer data){
     gtk_widget_hide_all(teacherGradeWindow);
     gtk_widget_show_all(teacherWindow);
 }
-
+// 改成绩回调函数
 void changeGradeWindow(GtkWidget *widget,gpointer data){
     const char *getGrade = gtk_entry_get_text(GTK_ENTRY(gradeTxt));
     char sno1[100];
@@ -22,6 +24,9 @@ void changeGradeWindow(GtkWidget *widget,gpointer data){
     int rs = changeGrade(sno1,title,grade);
     if(rs == 0){
         printf("grade success\n");
+        gtk_widget_hide_all(teacherGradeWindow);
+        teacherGradeWindowInit(title);
+        gtk_widget_show_all(teacherGradeWindow);
     }
 }
 
@@ -38,7 +43,7 @@ void teacherGradeWindowInit(char *cno){
 
     teacherGradeWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(teacherGradeWindow),title);
-    gtk_widget_set_usize(teacherGradeWindow,400,400);
+    gtk_widget_set_usize(teacherGradeWindow,500,500);
     g_signal_connect(GTK_OBJECT(teacherGradeWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(teacherGradeWindow),vbox);
@@ -46,7 +51,7 @@ void teacherGradeWindowInit(char *cno){
     for(i = 0;i < len;i++){
         hbox = gtk_hbox_new(FALSE,0);
         char content[100];
-        sprintf(content,"%d\t%s\t%s",i+1,sc[i].sno,sc[i].grade);
+        sprintf(content,"%d\t%s\t%s",i+1, toUtf8(sc[i].sno), toUtf8(sc[i].grade));
         label = gtk_label_new(content);
         gtk_box_pack_start((GtkBox *) hbox, label, FALSE, FALSE, 5);
 

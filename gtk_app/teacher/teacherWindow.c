@@ -6,10 +6,12 @@
 #include "../mainWindow/mainWindow.h"
 #include "../../mysql_app/course/course.h"
 #include "teacherGradeWindow.h"
+#include "../util/toutf8.h"
 #include <string.h>
 
-char data[100][100];
+char teacherCno[100][100];
 char cno[100];
+char teacherTitle[100];
 //进入成绩登记界面
 void teacherGrade(GtkWidget *widget,gpointer data){
     gtk_widget_hide_all(teacherWindow);
@@ -32,14 +34,14 @@ void teacherWindowInit(char *tno){
     GtkWidget *label;
     GtkWidget *hbox; //横向盒子
 
-    char *title = tno;
+    strcpy(teacherTitle,tno);
     struct course cou[100] = {};
-    int len = queryCourseByTno(cou,title);
+    int len = queryCourseByTno(cou,teacherTitle);
     int i;
 
     teacherWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    gtk_window_set_title(GTK_WINDOW(teacherWindow),title);
-    gtk_widget_set_usize(teacherWindow,400,400);
+    gtk_window_set_title(GTK_WINDOW(teacherWindow),teacherTitle);
+    gtk_widget_set_usize(teacherWindow,500,500);
     g_signal_connect(GTK_OBJECT(teacherWindow),"delete_event",GTK_SIGNAL_FUNC(gtk_main_quit),NULL);
     vbox =  gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(teacherWindow),vbox);
@@ -48,14 +50,14 @@ void teacherWindowInit(char *tno){
     for(i = 0;i < len;i++){
         hbox = gtk_hbox_new(FALSE,0);
         char content[100];
-        sprintf(content,"%d\t%s\t%s",i+1,cou[i].cno,cou[i].cname);
+        sprintf(content,"%d\t%s\t%s",i+1, toUtf8(cou[i].cno), toUtf8(cou[i].cname));
         label = gtk_label_new(content);
         gtk_box_pack_start((GtkBox *) hbox, label, FALSE, FALSE, 5);
 
         button = gtk_button_new_with_label("grade");
         gtk_box_pack_start((GtkBox *) hbox, button, FALSE, FALSE, 5);
-        strcpy(data[i],cou[i].cno);
-        g_signal_connect(GTK_OBJECT(button),"pressed",GTK_SIGNAL_FUNC(teacherGrade),data[i]);
+        strcpy(teacherCno[i],cou[i].cno);
+        g_signal_connect(GTK_OBJECT(button),"pressed",GTK_SIGNAL_FUNC(teacherGrade),teacherCno[i]);
 
         gtk_box_pack_start((GtkBox *) vbox, hbox, FALSE, FALSE, 5);
     }
