@@ -20,4 +20,6 @@ int queryCourseByTno(struct course *cou,char *tno);
 int addCourse(struct course cou);
 
 int deleteCourse(char *cno);
+
+int queryCourseWithoutSno(struct course *cou,char *sno);
 #endif //SUBJECT_SYSTEM_COURSE_H

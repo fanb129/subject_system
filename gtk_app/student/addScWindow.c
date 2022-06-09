@@ -37,7 +37,7 @@ void addScWindowInit(char *sno){
 
     strcpy(title1,sno);
     struct course cou[100] = {};
-    int len = queryCourse(cou);
+    int len = queryCourseWithoutSno(cou,sno);
     int i;
 
     addScWindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);

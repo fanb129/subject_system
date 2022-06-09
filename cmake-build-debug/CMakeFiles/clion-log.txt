@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /root/tmp/tmp.UnWe8INrez
--- Configuring done
--- Generating done
--- Build files have been written to: /root/tmp/tmp.UnWe8INrez/cmake-build-debug
+CMake executable not found: /usr/bin/cmake Configure Disable profile
+
+Cannot get compiler information:
+	Unable to create a temporary file
