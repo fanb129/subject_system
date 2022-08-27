@@ -8,15 +8,11 @@
 #include "gtk_app/loginWindow/loginWindow.h"
 #include "gtk_app/registerWindow/registerWindow.h"
 
-#define HOST "39.103.195.185"       // MySQL主机地址
-#define USERNAME "fanb"             // 用户名
-#define PASSWORD "Fb123456."         // 密码
-#define DATABASE "subject_system"   // 连接的数据库
 
-//#define HOST "localhost"       // MySQL主机地址
-//#define USERNAME "root"             // 用户名
-//#define PASSWORD "123456"         // 密码
-//#define DATABASE "subject_system"   // 连接的数据库
+#define HOST "localhost"       // MySQL主机地址
+#define USERNAME "root"             // 用户名
+#define PASSWORD "123456"         // 密码
+#define DATABASE "subject_system"   // 连接的数据库
 
 int main(int argc,char *argv[]) {
     // 初始化连接数据库
