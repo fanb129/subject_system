@@ -1,3 +1,0 @@
-E:/c/subject_system/cmake-build-debug/CMakeFiles/subject_system.dir
-E:/c/subject_system/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/c/subject_system/cmake-build-debug/CMakeFiles/rebuild_cache.dir
